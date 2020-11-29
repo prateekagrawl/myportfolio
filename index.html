@@ -37,21 +37,22 @@
     <hr>
     <h2>@lists</h2>
     <h3>unordered lists</h3>
-    <ul>
+    <p>This list will not have bullets</p>
+    <ul class="non-bullets">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
     </ul>
 
     <h3>unordered inline lists</h3>
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
+    <ul class="non-bullets">
+        <li class="list-item-inline">Item One</li>
+        <li class="list-item-inline">Item Two</li>
+        <li class="list-item-inline">Item Three</li>
     </ul>
 
     <h3>reverse ordered lists</h3>
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>bread</li>
         <li>eggs</li>
@@ -61,17 +62,17 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>IAMBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation container">
+        <div class="nav-brand"> IAMBrand</div>
+        <ul class="non-bullets nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
             </li>
-            <li>
-                <a href="/">Products</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
             </li>
         </ul>
     </nav>
@@ -79,9 +80,9 @@
     <hr>
     <h2>@header</h2>
 
-    <header>
-        <img src="images/hero.svg">
-        <h1>heading inside header</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg">
+        <h1 class="hero-heading">prateek agrawal the <span class="heading-inverted">web developer</span></h1>
     </header>
 
     <hr>
