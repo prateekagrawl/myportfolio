@@ -7,9 +7,10 @@ body{
 
 /* variable declaration in css */
 :root{
-    --primary-color:#6C63FF;
+    --primary-color:#6EE7B7;
     --dark-gray:#6B7280;
-    --off-white:#F3F4F6;
+    --off-white:#D1FAE5;
+    --blog-bg:#ECFDF5;
 }
 
 hr{
@@ -17,8 +18,7 @@ hr{
 }
 
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding:0rem 1rem;
 }
 
 .container-center{
@@ -42,6 +42,14 @@ hr{
     border-radius: 0.5rem;
     border:1px solid var(--primary-color);
 }
+
+.link .space{
+   text-align: center;
+   padding: 5rem;
+   margin: 5rem;
+}
+
+
 
 /* lists */
 .non-bullets{
@@ -79,6 +87,7 @@ hr{
 /* header */
 .hero{
     padding: 2rem;
+    padding-top: 5rem;;
 }
 
 .hero .hero-img{
@@ -100,29 +109,53 @@ hr{
 /* section */
 .section h1{
    text-align: center;
+   /* max-width: 200px; */
 }
 .section{
     padding: 2rem;
+    text-align: center;
 }
 .ow{
     background-color: var(--off-white);
 }
 
+.section .weight{
+    font-weight: bold;
+}
+
 /*links*/
 .footer{
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     padding: 2rem 1rem;
     text-align: center;
-    color:white;
+    color:black;
     border-top-right-radius: 1rem;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .link{
-    color:white;
+    color:black;
 }
 .footer ul{
     padding-inline-start: 0px;
 }
+
+
+/**blog styling**/
+
+.blog-weight{
+    font-size:3rem;
+}
+
+/* .blog-bg{
+    background-color: var(--blog-bg);
+}
+.footer-bg{
+    background-color: var(--primary-color);
+} */
 
 
 
