@@ -139,7 +139,7 @@ hr{
 .footer .link{
     color:black;
 }
-.footer ul{
+.margin{
     padding-inline-start: 0px;
 }
 
@@ -156,6 +156,10 @@ hr{
 .footer-bg{
     background-color: var(--primary-color);
 } */
+
+.blog-img{
+    max-width: 350px;
+}
 
 
 
