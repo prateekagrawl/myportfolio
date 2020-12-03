@@ -124,8 +124,7 @@ hr{
 }
 
 /*links*/
-.footer{
-    /* background-color: var(--primary-color); */
+/* .footer{
     padding: 2rem 1rem;
     text-align: center;
     color:black;
@@ -141,7 +140,31 @@ hr{
 }
 .margin{
     padding-inline-start: 0px;
+} */
+
+.footer{
+    /* background-color: var(--primary-color); */
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
+.footer-div{
+font-size: large;
+font-weight: bold;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+}
+
 
 
 /**blog styling**/
