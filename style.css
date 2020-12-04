@@ -3,10 +3,12 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+
 }
 
 p{
     font-weight: 400;
+    font-size: large;
 }
 
 /* variable declaration in css */
